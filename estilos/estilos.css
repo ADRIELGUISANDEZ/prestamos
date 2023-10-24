@@ -164,7 +164,9 @@ iframe {
     text-align: center;
     margin-left: 10px;
 }
-
+p{
+    padding: 20px;
+}
 .somos{
     text-align: justify;
     display: flex;
