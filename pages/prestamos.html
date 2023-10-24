@@ -31,6 +31,7 @@
     </header>
     <main>
       <form action="./enviar-formulario.html" method="get">
+        <article class="m-4">
         <h1>Prestamo Personal</h1>
         <h2>Solicitud de Préstamo:</h2>
         <div class="datos">
@@ -54,7 +55,7 @@
           <label for="archivo">Si posee: adjuntar foto del recibo de sueldo</label>
           <input type="file" id="archivo" name="archivo"/>
         </div>
-        <div>
+        <div class="ingresostotales2">
           <p>Sus ingresos son por:</p>
           <input type="checkbox" name="Trabajo independiente" id="Trabajo independiente"/>
           <label for="Trabajo independiente" Trabajo independiente>Trabajo independiente</label>
@@ -63,14 +64,15 @@
           <input type="checkbox" name="Jubilación" id="Jubilación"/>
           <label for="Jubilación" Jubilación>Jubilación</label>
         </div>
-        <div>
+        <div class="ingresostotales">
           <p>Ingresos Totales</p>
-          <select>
-            <option value="menor a $100.000">manor a $100.000</option>
-            <option value="entre $100.000 y $200.000">entre $100.000 y $200.000</option>
-            <option value="entre $200.000 y $300.000">entre $200.000 y $300.000</option>
-            <option value="entre $300.000 y $400.000">entre $300.000 y $400.000</option>
-            <option value="mayor a $400.000">mayor a $400.000</option>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Seleccionar</option>
+            <option value="1">menor a $100.000</option>
+            <option value="2">entre $100.000 y $200.000</option>
+            <option value="3">entre $200.000 y $300.000</option>
+            <option value="4">entre $300.000 y $400.000</option>
+            <option value="5">mayor a $400.000</option>
           </select>
         </div>
         <div>
@@ -78,6 +80,7 @@
           <input type="submit" value="enviar" />
         </div>
       </form>
+    </article>
     </main>
     <footer>
       <section class="redes">

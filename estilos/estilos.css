@@ -113,7 +113,12 @@ h1:hover {
     gap: 2rem;
     margin-top: 35px;
 }
-
+textarea{
+    border-radius: 9px;
+}
+input{
+    border-radius: 9px;
+}
 input:focus {
     background-color: pink;
 }
@@ -174,8 +179,14 @@ p{
     gap: 20rem;
     font-size: 30px;
 }
-
-
+.form-select{
+    margin-bottom: 20px;
+}
+.ingresostotales,
+.ingresostotales2{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 h2{
     margin-left: 10px;
