@@ -227,6 +227,7 @@ h3:hover {
     height: 50px;
     border-radius: 50px;
 }
+
 .nosotroslogo{
     background-color: red;
     grid-area: logo;
