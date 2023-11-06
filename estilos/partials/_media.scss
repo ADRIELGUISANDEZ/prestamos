@@ -1,0 +1,111 @@
+@media screen and (max-width: 1300px){
+    .medio{
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "carousel   carousel"
+        "carousel   carousel"
+        "gris       mano";
+    }
+    .gris-1{
+        grid-area: gris;
+        margin-left: 30px;
+    }
+    .mano-1{
+        grid-area: mano;
+        margin-right: 30px;
+    }
+    .carousel.slide{
+        grid-area: carousel;
+        margin: 20px 100px;
+    }
+    .carousel-item img{
+        width: 400px;
+        height: 300px;
+    }
+    
+}
+
+@media screen and (max-width: 930px){
+    .medio{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 0.9fr 0.9fr;
+        grid-template-areas: 
+        "carousel"
+        "gris"
+        "mano";
+    }
+    .gris-1{
+        grid-area: gris;
+        text-align: center;
+        margin: 0px;
+        .gris{
+            margin: 0%;
+            height: 300px;
+        }
+    }
+    .mano-1{
+        grid-area: mano;
+        text-align: center;
+        .mano{
+            margin: 0%;
+            height: 250px;
+        }
+    }
+    .carousel-caption.d-none.d-md-block {
+        font-size: small;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 970px){
+    .datos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "fajosmilpesos"
+        "datos1";
+        }
+        .form-1{
+            grid-area: datos1;
+        }
+        .fajosmilpesos{
+            grid-area: fajosmilpesos;
+        }
+        .fajosmilpesos img{
+            position: relative;
+            top: 40px; 
+            left: 30px;
+            border-radius: 20px;
+        }
+    }
+
+@media screen and (max-width: 970px){
+    .datos-2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.9fr 1.1fr;
+        grid-template-areas: 
+        "mapa"
+        "form-2";
+        }
+        .form-2{
+            grid-area: form-2;
+        }
+        .mapa{
+            grid-area: mapa;
+
+        }
+        .mapa iframe{
+            position: relative;
+            top: 40px; 
+            left: 30px;
+            border-radius: 20px;
+            width: 500px;
+            
+        }
+    }

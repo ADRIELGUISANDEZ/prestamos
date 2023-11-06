@@ -1,0 +1,43 @@
+
+.quienessomos{
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90px;
+    transform: 1s;
+}
+.quienessomos:hover{
+    transition: 1s;
+    transform: scale(1.1)
+
+}
+
+.nosotrosflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .nosotroslogo img{
+        height: auto;
+        width: 400px;
+        margin-left: 100px;
+        border-radius: 50%;
+    }
+}
+
+.nosotroslogo:hover{
+    transition: 2s;
+    transform: scale(1.3);
+}
+
+.nosotrostexto{
+    background-color: rgb(144, 234, 144);
+    margin-right: 25px;
+    margin-left: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    border-radius: 10px;
+    text-align: center;
+    .resaltar{
+        text-decoration: underline;
+        color: rgb(123, 16, 16);
+    }
+}

@@ -6,28 +6,34 @@
     <title>NODOS PRESTAMOS</title>
     <link rel="shortcut icon" href="../img/nodoslogoescrito.png" type="image/x-icon"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../estilos/estilos.css"/>
+    <link rel="stylesheet" href="../estilos/estilo.css"/>
   </head>
   <body>
-    <header>
-      <a href="../index.html"><img class="logo1" src="../img/nodoslogoescrito.png" alt="logo"/></a>
-      <nav>
-        <ul class="menu">
-          <li>
-            <a class="menu-link active" href="./prestamos.html">PRESTAMO</a>
-          </li>
-          <li>
-            <a class="menu-link" href="./contacto.html">CONTACTO</a>
-          </li>
-          <li>
-            <a class="menu-link" href="./nosotros.html">NOSOTROS</a>
-          </li>
-          <li>
-            <a class="menu-link" href="./preguntas.html">PREGUNTAS</a>
-          </li>
-        </ul>
+    <header class="cabeza">
+      <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img class="logo1" src="../img/nodoslogoescrito.png" alt="logo"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/prestamos.html">PRESTAMO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/preguntas.html">PREGUNTAS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
-      <a href="../index.html"><img class="logo2" src="../img/nodoslogoescrito.png" alt="logo"/></a>
     </header>
     <main>
       <form action="./enviar-formulario.html" method="get">
@@ -35,18 +41,20 @@
         <h1>Prestamo Personal</h1>
         <h2>Solicitud de Préstamo:</h2>
         <div class="datos">
-          <label for="nombre" class="datos2" type="text">Nombre</label>
-          <input id="nombre" type="text" placeholder="ingrese nombre" required/>
-          <label for="apellido" class="datos2" type="text">Apellido</label>
-          <input id="apellido" type="text" placeholder="ingrese apellido" required/>
-          <label for="DNI" class="datos2" type="number">DNI</label>
-          <input id="DNI" type="number" placeholder="ingrese DNI sin puntos" required/>
-          <label for="Dirección" class="datos2" type="text">Dirección</label>
-          <input id="Dirección" type="text" placeholder="ingrese Domicilio" required />
-          <label for="E-mail" class="datos2" type="text">E-mail</label>
-          <input id="E-mail" type="email" placeholder="ingrese mail" required/>
-          <label for="Celular" class="datos2" type="number">Celular</label>
-          <input id="Celular" type="number" placeholder="ingrese teléfono" required />
+          <div class="form-1">
+            <label for="nombre" class="datos2" type="text">Nombre</label>
+            <input id="nombre" type="text" placeholder="ingrese nombre" required/>
+            <label for="apellido" class="datos2" type="text">Apellido</label>
+            <input id="apellido" type="text" placeholder="ingrese apellido" required/>
+            <label for="DNI" class="datos2" type="number">DNI</label>
+            <input id="DNI" type="number" placeholder="ingrese DNI sin puntos" required/>
+            <label for="Dirección" class="datos2" type="text">Dirección</label>
+            <input id="Dirección" type="text" placeholder="ingrese Domicilio" required />
+            <label for="E-mail" class="datos2" type="text">E-mail</label>
+            <input id="E-mail" type="email" placeholder="ingrese mail" required/>
+            <label for="Celular" class="datos2" type="number">Celular</label>
+            <input id="Celular" type="number" placeholder="ingrese teléfono" required />
+          </div>
           <div class="fajosmilpesos">
             <img src="../img/fajosmilpesos.jpg" alt="fajosmilpesos"/>
           </div>

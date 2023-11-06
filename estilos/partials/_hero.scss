@@ -1,0 +1,112 @@
+.main-img {
+    background-image: url(../../img/fondodeg.webp);
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+  }
+
+.subtitulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+h1:hover{
+    color: red;
+}
+h2:hover{
+    color: green;
+}
+h3:hover{
+    color: aqua;
+}
+
+.caja1{
+    font-size: xx-large;
+    margin-top: 60px;
+    line-height: 50px;
+    }
+
+.caja2{
+    margin: 50px;
+    text-decoration: none;
+    font-size: 15px;
+    border: 2px solid #000;
+    padding: 2%;
+}
+    
+   
+
+.medio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    .d-block{
+        height: 390px;
+    }
+    .carousel{
+        height: 400px;
+    }
+    
+    .gris{
+        height: 250px;
+        margin-right: 160px;
+    }
+    .mano{
+        height: 250px;
+        margin-left: 160px;
+    }
+
+}
+.form-1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    }
+    #fajosmilpesos{
+        position: relative;
+        margin-left: 600px; 
+    }    
+    .fajosmilpesos img{
+        position: absolute;
+        top: 400px; 
+        left: 400px;
+        border-radius: 20px;
+    }
+    #mapa {
+        position: relative;
+        width: 100px; 
+        height: 600px; 
+        margin-left: 600px; 
+        margin-top: 100px;
+    }
+        
+    iframe {
+        position: absolute;
+        top: 450px; 
+        left: 600px;
+        border-radius: 20px;
+    }
+.form-select{
+    margin-bottom: 20px;
+}
+.form-2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    }
