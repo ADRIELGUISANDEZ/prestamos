@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@600;700&display=swap");
 * {
   margin: 0;
@@ -39,10 +38,8 @@ header {
   scale: 90%;
 }
 
-.main-img {
-  background-image: url(../../img/fondodeg.webp);
-  background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
-  background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+body {
+  background-color: rgb(52, 192, 122);
 }
 
 .subtitulo {
@@ -293,9 +290,11 @@ footer {
   }
   .fajosmilpesos img {
     position: relative;
-    top: 40px;
-    left: 30px;
+    top: 20px;
+    left: 20px;
+    bottom: 10px;
     border-radius: 20px;
+    height: 70%;
   }
 }
 @media screen and (max-width: 970px) {
@@ -317,5 +316,28 @@ footer {
     left: 30px;
     border-radius: 20px;
     width: 500px;
+  }
+}
+@media screen and (max-width: 830px) {
+  .nosotrosflex {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.9fr 1.1fr;
+    grid-template-areas: "quienes" "log";
+  }
+  .nosotrosflex .quienessomos {
+    grid-area: quienes;
+  }
+  .nosotrosflex .nosotroslogo {
+    grid-area: log;
+  }
+  .nosotrosflex .nosotroslogo img {
+    border-radius: 50%;
+    margin-top: -20px;
+    margin-bottom: -20px;
+  }
+  .nosotrosflex .quienessomos {
+    text-align: center;
+    font-size: 80px;
   }
 }/*# sourceMappingURL=estilo.css.map */
