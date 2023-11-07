@@ -221,6 +221,11 @@ footer {
   color: rgb(123, 16, 16);
 }
 
+.conteiner .row {
+  margin: 2px 5px;
+  justify-content: center;
+}
+
 @media screen and (max-width: 1300px) {
   .medio {
     align-items: center;
@@ -231,11 +236,27 @@ footer {
   }
   .gris-1 {
     grid-area: gris;
-    margin-left: 30px;
+    margin: 2px auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .gris-1 .gris {
+    margin: 2px auto;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
   }
   .mano-1 {
     grid-area: mano;
-    margin-right: 30px;
+    margin: 2px auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .mano-1 .mano {
+    margin: 2px auto;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
   }
   .carousel.slide {
     grid-area: carousel;
@@ -252,10 +273,14 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: 1.5fr 0.9fr 0.9fr;
     grid-template-areas: "carousel" "gris" "mano";
+    justify-content: center;
+    align-items: center;
   }
   .gris-1 {
     grid-area: gris;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     margin: 0px;
   }
   .gris-1 .gris {
@@ -264,11 +289,15 @@ footer {
   }
   .mano-1 {
     grid-area: mano;
+    margin: 2px auto;
     text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   .mano-1 .mano {
-    margin: 0%;
+    justify-content: center;
     height: 250px;
+    margin: 2px auto;
   }
   .carousel-caption.d-none.d-md-block {
     font-size: small;
