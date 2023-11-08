@@ -59,7 +59,7 @@ h1 {
 }
 
 h1:hover {
-  color: red;
+  color: rgb(153, 11, 11);
 }
 
 h2:hover {
@@ -178,6 +178,30 @@ footer {
   height: 50px;
 }
 
+.llevatetuprestamo {
+  transition: 1s;
+}
+
+.llevatetuprestamo:hover {
+  scale: 1.2;
+}
+
+.prestamopersonal {
+  transition: 1s;
+}
+
+.prestamopersonal:hover {
+  scale: 1.2;
+}
+
+.datospersonales {
+  transition: 1s;
+}
+
+.datospersonales:hover {
+  scale: 1.2;
+}
+
 .quienessomos {
   text-decoration: underline;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -186,6 +210,7 @@ footer {
 }
 
 .quienessomos:hover {
+  color: rgb(153, 11, 11);
   transition: 1s;
   transform: scale(1.1);
 }
@@ -221,9 +246,25 @@ footer {
   color: rgb(123, 16, 16);
 }
 
+.preguntas {
+  transition: 1s;
+}
+
+.preguntas:hover {
+  scale: 1.2;
+}
+
 .conteiner .row {
   margin: 2px 5px;
   justify-content: center;
+}
+
+.col {
+  transition: 1s;
+}
+
+.col:hover {
+  scale: 1.1;
 }
 
 @media screen and (max-width: 1300px) {

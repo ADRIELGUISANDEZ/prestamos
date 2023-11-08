@@ -1,6 +1,19 @@
+.preguntas{
+    transition: 1s;
+}
+.preguntas:hover{
+    scale:(1.2);
+}
+
 .conteiner{
     .row{
         margin: 2px 5px;
         justify-content: center;
     }
+}
+.col{
+    transition: 1s;
+}
+.col:hover{
+    scale:(1.1);
 }
