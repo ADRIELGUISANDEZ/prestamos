@@ -1,14 +1,15 @@
 
 .quienessomos{
     text-decoration: underline;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 90px;
     transform: 1s;
 }
 .quienessomos:hover{
     color: rgb(153, 11, 11);
     transition: 1s;
-    transform: scale(1.1)
+    transform: scale(1.1);
+    rotate: (10deg);
 
 }
 
@@ -18,7 +19,7 @@
     align-items: center;
     .nosotroslogo img{
         height: auto;
-        width: 400px;
+        width: 300px;
         margin-left: 100px;
         border-radius: 50%;
     }
@@ -33,8 +34,8 @@
     background-color: rgb(144, 234, 144);
     margin-right: 25px;
     margin-left: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
+    font-family: monospace;
+    font-size: 20px;
     border-radius: 10px;
     text-align: center;
     .resaltar{

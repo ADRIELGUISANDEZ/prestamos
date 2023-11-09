@@ -149,11 +149,16 @@
             }
             .nosotroslogo{
                 grid-area: log;
+                margin: 2px auto;
+                align-items: center;
+                justify-content: center;
             }
             .nosotroslogo img{
                 border-radius: 50%;
                 margin-top: -20px;
                 margin-bottom: -20px;
+                justify-content: center;
+                margin-left: 0px;
             }
             .quienessomos{
                 text-align: center;
