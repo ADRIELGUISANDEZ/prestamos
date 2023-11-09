@@ -1,6 +1,5 @@
 
 body{
-    height: 100vh;
     background-color: rgb(52, 192, 122);
 }
 
@@ -89,14 +88,13 @@ h3:hover{
         position: relative;
         width: 100px; 
         height: 600px; 
-        margin-left: 600px; 
         margin-top: 100px;
     }
         
     iframe {
         position: absolute;
         top: 450px; 
-        left: 600px;
+        left: 450px;
         border-radius: 20px;
     }
 .form-select{

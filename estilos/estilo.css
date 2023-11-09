@@ -38,7 +38,6 @@ header {
 }
 
 body {
-  height: 100vh;
   background-color: rgb(52, 192, 122);
 }
 
@@ -131,14 +130,13 @@ h3:hover {
   position: relative;
   width: 100px;
   height: 600px;
-  margin-left: 600px;
   margin-top: 100px;
 }
 
 iframe {
   position: absolute;
   top: 450px;
-  left: 600px;
+  left: 450px;
   border-radius: 20px;
 }
 
@@ -226,6 +224,8 @@ footer {
   width: 300px;
   margin-left: 100px;
   border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .nosotroslogo:hover {
@@ -361,11 +361,11 @@ footer {
   }
   .fajosmilpesos img {
     position: relative;
-    top: 20px;
-    left: 20px;
-    bottom: 10px;
+    top: 10px;
+    left: 3px;
     border-radius: 20px;
-    height: 70%;
+    width: 400px;
+    height: 250px;
   }
 }
 @media screen and (max-width: 970px) {
@@ -386,7 +386,7 @@ footer {
     top: 40px;
     left: 30px;
     border-radius: 20px;
-    width: 500px;
+    width: 90%;
   }
 }
 @media screen and (max-width: 830px) {
