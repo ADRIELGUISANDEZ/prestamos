@@ -3,11 +3,10 @@
     text-decoration: underline;
     font-family: 'Times New Roman', Times, serif;
     font-size: 90px;
-    transform: 1s;
+    transition: 1s;
 }
 .quienessomos:hover{
     color: rgb(153, 11, 11);
-    transition: 1s;
     transform: scale(1.1);
     rotate: (10deg);
 
@@ -26,10 +25,12 @@
         margin-bottom: 10px;
     }
 }
+.nosotroslogo{
+    transition: 1s;
+}
 
 .nosotroslogo:hover{
-    transition: 2s;
-    transform: scale(1.3);
+        transform: scale(1.3);
 }
 
 .nosotrostexto{

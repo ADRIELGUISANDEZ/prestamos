@@ -1,6 +1,44 @@
+
 .prestamopersonal{
     transition: 1s;
 }
+
 .prestamopersonal:hover{
     scale:(1.2);
+}
+
+.datos{
+    display: flex;
+    justify-content: center;
+
+}
+.archivo{
+    margin-top: 15px;
+}
+.fajosmilpesos img{
+    width: 500px;
+    height: auto;
+}
+.bodyprestamo{
+    background-color: black;
+}
+.prestamopersonal{
+    color: white;
+}
+.solicitud{
+    color: white;
+}
+.datos3{
+    color: white;
+}
+.ingresostotales2{
+    color: white;
+}
+.archivo{
+    color: white;
+}
+.ingresostotales{
+    text-decoration: underline;
+    color: white;
+    margin-top: 15px;
 }

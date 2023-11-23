@@ -38,53 +38,50 @@
       </nav>
     </header>
     <main>
-      <h1 class="datospersonales" >Datos Personales</h1>
-      <form action="./enviar-formulario.html" method="get">
-        <article class="m-4">
-        <h2>Formulario de Contacto:</h2>
-        <div class="datos-2">
-          <div class="form-2">
-            <label for="nombre" class="datos2" type="text">Nombre</label>
-            <input id="nombre" type="text" placeholder="ingrese nombre" required/>
-            <label for="apellido" class="datos2" type="text">Apellido</label>
-            <input id="apellido" type="text" placeholder="ingrese apellido" required/>
-            <label for="E-mail" class="datos2" type="text">E-mail</label>
-            <input id="E-mail" type="email" placeholder="ingrese mail" required/>
-            <label for="Celular" class="datos2" type="number">Celular</label>
-            <input id="Celular" type="number" placeholder="ingrese teléfono" required/>
-            <label type="text" class="datos2">Consulta</label>
-            <textarea cols="40" rows="10"></textarea>
+        <h1 class="datospersonales" >Datos para Contacto Personal</h1>
+        <form action="./enviar-formulario.html" method="get">
+          <article class="m-4">
+          <h2 class="consultatitulo">Consultanos y sacate tus dudas:</h2>
+          <div class="contacto1">
+            <div class="datos-2">
+              <div class="form-2">
+                <label for="nombre" class="datos2" type="text">Nombre y Apellido</label>
+                <input id="nombre" type="text" placeholder="ingrese nombre y apellido" required class="form-control"/>
+                <label for="Celular" class="datos2" type="number">Celular</label>
+                <input id="Celular" type="number" placeholder="ingrese teléfono" required class="form-control"/>
+                <label type="text" class="datos2">Consulta</label>
+                <textarea cols="40" rows="5"></textarea>
+              </div>
+              <div class="espacio"></div>
+              <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.7648414363903!2d-62.0759759!3d-31.420604500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cb282090e64633%3A0x24bf29a7465a2d4d!2sAv.%20Garibaldi%201106%2C%20X2400%20San%20Francisco%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1696269609325!5m2!1ses-419!2sar" width="600" height="300" style="border: 0" allowfullscreen="" loading="lazy"referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+            <div class="botones">
+              <input type="reset" value="borrar" />
+              <input type="submit" value="enviar" />
+            </div>
+          </div> 
+          <div class="imgchiquitas">
+            <div class="card1">
+              <img src="../img/reloj.png" alt="reloj">
+              <p class="card-text">Solicitud Simple y 100% online</p>
+            </div>
+            <div class="card2">
+              <img src="../img/dolar.png" alt="dolar">
+              <p class="card-text">Acreditación inmediata</p>
+            </div>
+            <div class="card3">
+              <img src="../img/porcentaje.png" alt="porcentaje">
+              <p class="card-text">Las mejores Tasas de interes</p>
+            </div>
+            <div class="card4">
+              <img src="../img/cuaderno.png" alt="cuaderno">
+              <p class="card-text">Excelente atención</p>
+            </div>
           </div>
-          <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.7648414363903!2d-62.0759759!3d-31.420604500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cb282090e64633%3A0x24bf29a7465a2d4d!2sAv.%20Garibaldi%201106%2C%20X2400%20San%20Francisco%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1696269609325!5m2!1ses-419!2sar" width="600" height="300" style="border: 0" allowfullscreen="" loading="lazy"referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-        </div>
-        <div class="ingresostotales2">
-          <p>Sus ingresos son por:</p>
-          <input type="checkbox" name="Trabajo independiente" id="Trabajo independiente"/>
-          <label for="Trabajo independiente" Trabajo independiente>Trabajo independiente</label>
-          <input type="checkbox" name="Relacion de Dependencia" id="Relacion de Dependencia"/>
-          <label for="Relacion de Dependencia" Relacion de Dependencia>Relacion de Dependencia</label>
-          <input type="checkbox" name="Jubilación" id="Jubilación"/>
-          <label for="Jubilación" Jubilación>Jubilación</label>
-        </div>
-        <div class="ingresostotales">
-          <p>Ingresos Totales</p>
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Seleccionar</option>
-            <option value="1">menor a $100.000</option>
-            <option value="2">entre $100.000 y $200.000</option>
-            <option value="3">entre $200.000 y $300.000</option>
-            <option value="4">entre $300.000 y $400.000</option>
-            <option value="5">mayor a $400.000</option>
-          </select>
-          </div>
-        <div>
-          <input type="reset" value="borrar" />
-          <input type="submit" value="enviar" />
-        </div>
-      </form>
-    </article>
+        </form>
+      </article>
     </main>
     <footer>
       <section class="redes">

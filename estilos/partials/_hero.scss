@@ -21,7 +21,7 @@ h1:hover{
     color: rgb(153, 11, 11);
 }
 h2:hover{
-    color: green;
+    color: rgb(4, 86, 4);
 }
 h3:hover{
     color: aqua;
@@ -75,16 +75,6 @@ h3:hover{
     margin-bottom: 15px;
     margin-left: 40px;
     }
-    #fajosmilpesos{
-        position: relative;
-        margin-left: 600px; 
-    }    
-    .fajosmilpesos img{
-        position: absolute;
-        top: 400px; 
-        left: 400px;
-        border-radius: 20px;
-    }
     #mapa {
         position: relative;
         width: 100px; 
@@ -93,7 +83,6 @@ h3:hover{
     }
         
     iframe {
-        position: absolute;
         top: 450px; 
         left: 450px;
         border-radius: 20px;

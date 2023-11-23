@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../estilos/css/bootstrap.min.css">
     <link rel="stylesheet" href="../estilos/estilo.css"/>
   </head>
-  <body>
+  <body class="bodyprestamo">
     <header class="cabeza">
       <nav class="navbar navbar-expand-md bg-body-tertiary">
         <div class="container-fluid">
@@ -37,58 +37,58 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="cuerpoprestamo">
       <form action="./enviar-formulario.html" method="get">
         <article class="m-4">
-        <h1 class="prestamopersonal" >Prestamo Personal</h1>
-        <h2>Solicitud de Préstamo:</h2>
+        <h1 class="prestamopersonal" >$$$ --- Prestamo Personal --- $$$</h1>
+        <h2 class="solicitud">Solicitud de Préstamo:</h2>
         <div class="datos">
           <div class="form-1">
-            <label for="nombre" class="datos2" type="text">Nombre</label>
-            <input id="nombre" type="text" placeholder="ingrese nombre" required/>
-            <label for="apellido" class="datos2" type="text">Apellido</label>
-            <input id="apellido" type="text" placeholder="ingrese apellido" required/>
-            <label for="DNI" class="datos2" type="number">DNI</label>
-            <input id="DNI" type="number" placeholder="ingrese DNI sin puntos" required/>
-            <label for="Dirección" class="datos2" type="text">Dirección</label>
-            <input id="Dirección" type="text" placeholder="ingrese Domicilio" required />
-            <label for="E-mail" class="datos2" type="text">E-mail</label>
-            <input id="E-mail" type="email" placeholder="ingrese mail" required/>
-            <label for="Celular" class="datos2" type="number">Celular</label>
-            <input id="Celular" type="number" placeholder="ingrese teléfono" required />
+            <label for="nombre" class="datos3" type="text">Nombre</label>
+            <input id="nombre" type="text" placeholder="ingrese nombre" required class="form-control"/>
+            <label for="apellido" class="datos3" type="text">Apellido</label>
+            <input id="apellido" type="text" placeholder="ingrese apellido" required class="form-control"/>
+            <label for="DNI" class="datos3" type="number">DNI</label>
+            <input id="DNI" type="number" placeholder="ingrese DNI sin puntos" required class="form-control"/>
+            <label for="Dirección" class="datos3" type="text">Dirección</label>
+            <input id="Dirección" type="text" placeholder="ingrese Domicilio" required class="form-control"/>
+            <label for="E-mail" class="datos3" type="text">E-mail</label>
+            <input id="E-mail" type="email" placeholder="ingrese mail" required class="form-control"/>
+            <label for="Celular" class="datos3" type="number">Celular</label>
+            <input id="Celular" type="number" placeholder="ingrese teléfono" required class="form-control"/>
+            <div class="archivo">
+              <label for="archivo">Si posee: adjuntar foto del recibo de sueldo</label>
+              <input type="file" id="archivo" name="archivo"/>
+            </div>
+            <div class="ingresostotales2">
+              <p>Sus ingresos son por:</p>
+              <input type="checkbox" name="Trabajo independiente" id="Trabajo independiente"/>
+              <label for="Trabajo independiente" Trabajo independiente>Trabajo independiente</label>
+              <input type="checkbox" name="Relacion de Dependencia" id="Relacion de Dependencia"/>
+              <label for="Relacion de Dependencia" Relacion de Dependencia>Relacion de Dependencia</label>
+              <input type="checkbox" name="Jubilación" id="Jubilación"/>
+              <label for="Jubilación" Jubilación>Jubilación</label>
+            </div>
+            <div class="ingresostotales">
+              <p>Ingresos Totales</p>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccionar</option>
+                <option value="1">menor a $100.000</option>
+                <option value="2">entre $100.000 y $200.000</option>
+                <option value="3">entre $200.000 y $300.000</option>
+                <option value="4">entre $300.000 y $400.000</option>
+                <option value="5">mayor a $400.000</option>
+              </select>
+            </div>
+            <div>
+              <input type="reset" value="borrar" />
+              <input type="submit" value="enviar" />
+            </div>
           </div>
+          <div class="espacio"></div>
           <div class="fajosmilpesos">
-            <img src="../img/fajosmilpesos.jpg" alt="fajosmilpesos"/>
+            <img src="../img/fajosmilpesos1.png" alt="compu"/>
           </div>
-        </div>
-        <div class="archivo">
-          <label for="archivo">Si posee: adjuntar foto del recibo de sueldo</label>
-          <input type="file" id="archivo" name="archivo"/>
-        </div>
-        <div class="ingresostotales2">
-          <p>Sus ingresos son por:</p>
-          <input type="checkbox" name="Trabajo independiente" id="Trabajo independiente"/>
-          <label for="Trabajo independiente" Trabajo independiente>Trabajo independiente</label>
-          <input type="checkbox" name="Relacion de Dependencia" id="Relacion de Dependencia"/>
-          <label for="Relacion de Dependencia" Relacion de Dependencia>Relacion de Dependencia</label>
-          <input type="checkbox" name="Jubilación" id="Jubilación"/>
-          <label for="Jubilación" Jubilación>Jubilación</label>
-        </div>
-        <div class="ingresostotales">
-          <p>Ingresos Totales</p>
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Seleccionar</option>
-            <option value="1">menor a $100.000</option>
-            <option value="2">entre $100.000 y $200.000</option>
-            <option value="3">entre $200.000 y $300.000</option>
-            <option value="4">entre $300.000 y $400.000</option>
-            <option value="5">mayor a $400.000</option>
-          </select>
-        </div>
-        <div>
-          <input type="reset" value="borrar" />
-          <input type="submit" value="enviar" />
-        </div>
       </form>
     </article>
     </main>
