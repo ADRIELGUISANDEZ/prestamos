@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NODOS NOSOTROS</title>
-    <meta name="description" content="Breve descripción de Nodos Servicios Financieros">
-    <meta name="keywords" content="nosotros, empresa, mision, vision, valores, equipo">
+    <title>NODOS PRESTAMOS</title>
+    <meta name="description" content="Inicia el préstamo a tu medida completado diferentes datos personales">
+    <meta name="keywords" content="solucitud de prestamo, prestamo rapido, formulario de prestamo, prestamo en linea">
     <link rel="shortcut icon" href="../img/nodoslogoescrito.png" type="image/x-icon"/>
     <link rel="stylesheet" href="../estilos/css/bootstrap.min.css">
     <link rel="stylesheet" href="../estilos/estilo.css"/>
   </head>
-  <body>
+  <body class="bodyprestamo">
     <header class="cabeza">
       <nav class="navbar navbar-expand-md bg-body-tertiary">
         <div class="container-fluid">
@@ -21,38 +21,78 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../pages/prestamos.html">PRESTAMO</a>
+                <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/nosotros.html">NOSOTROS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/preguntas.html">PREGUNTAS</a>
+                <a class="nav-link active" aria-current="page" href="../pages/carrito.html">CARRITO</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <main>
-      <div class="nosotrosflex">
-        <h4 class="quienessomos">Quienes Somos</h4>
-        <div class="nosotroslogo">
-          <img src="../img/logoblanco.jpg" alt="logo">
-        </div>
-      </div>
-    <p class="nosotrostexto">Estamos comprometidos con garantizar operaciones financieras que
-      satisfagan las expectativas de cada uno de nuestros clientes.
-      También es conectar a cada persona con un espacio donde pueda
-      desarrollar una vida feliz, un sueñoo un negocio deseado. Buscamos
-      desafíos e ideas enriquecedoras, a las cuales aportar nuestra
-      experiencia y profesionalismo, brindando como resultado un gran
-      valor agregado. Con ello <span class="resaltar">garantizamos inversiones seguras, negocios
-      rentables y soluciones financieras</span> para cada necesidad</p> 
-     
+    <main class="cuerpoprestamo">
+        <h1 class="prestamopersonal" >$$$ --- Prestamo Personal --- $$$</h1>
+        <h2 class="solicitud">Solicitud de Préstamo:</h2>
+        <div class="contenedor-carrito">
+          <div class="carrito-prestamos">
+
+            <div class="carrito-prestamo">
+              <img class="carrito-prestamo-imagen" src="../img/200.png" alt="200mil">
+              <div class="carrito-prestamo-titulo">
+                <small>Nombre</small>
+                <h3>Préstamo 200 mil</h3>
+              </div>
+              <div class="carrito-prestamo-cantidad">
+                <small>Cantidad</small>
+                <p class="cantidades">1</p>
+              </div>
+              <div class="carrito-prestamo-preciocuota">
+                <small>Precio Cuota</small>
+                <p>50000</p>
+              </div>
+              <div class="carrito-prestamo-preciocuota-subtotal">
+                <small>Subtotal Cuota</small>
+                <p>100000</p>
+              </div>
+              <button class="carrito-prestamo-eliminar">Borrar</button>
+            </div>
+            <div class="carrito-prestamo">
+              <img class="carrito-prestamo-imagen" src="../img/300.png" alt="300mil">
+              <div class="carrito-prestamo-titulo">
+                <small>Nombre</small>
+                <h3>Préstamo 300 mil</h3>
+              </div>
+              <div class="carrito-prestamo-cantidad">
+                <small>Cantidad</small>
+                <p>2</p>
+              </div>
+              <div class="carrito-prestamo-preciocuota">
+                <small>Precio Cuota</small>
+                <p>75000</p>
+              </div>
+              <div class="carrito-prestamo-preciocuota-subtotal">
+                <small>Subtotal Cuota</small>
+                <p>150000</p>
+              </div>
+              <button class="carrito-prestamo-eliminar">Borrar</button>
+            </div>
+
+           </div> 
+           <div class="carrito-acciones">
+            <div class="carrito-acciones-izquierda">
+              <button class="carrito-borrar">Vaciar Carrito</button>
+            </div>   
+            <div class="carrito-acciones-derecha">
+              <div class="carrito-acciones-total">
+                <p>Total:</p>
+                <p id="total">175000</p>
+              </div>
+              <button class="carrito-acciones-solicitar">Solicitar Ahora</button>
+            </div>
+           </div>
+          </div> 
+        
     </main>
     <footer>
       <section class="redes">

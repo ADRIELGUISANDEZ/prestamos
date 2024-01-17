@@ -3,12 +3,12 @@
     .medio{
         align-items: center;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
         grid-template-areas: 
-        "carousel   carousel"
-        "carousel   carousel"
-        "gris       mano";
+        "200   300   400";
+        max-width: 100%;
     }
     .gris-1{
         grid-area: gris;
